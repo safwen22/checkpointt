@@ -1,0 +1,209 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 0 ;
+    position: fixed;
+    top: 0;
+    width: 100vw ;
+    background-color: white;
+    z-index: 1000;
+}
+header img {
+    width: 268px;
+    height: 33px;
+}
+img { 
+    border: 0;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navigation {
+    font-size: 16 px;
+    font-weight: 400;
+}
+#career {
+    color: #ababab;
+}
+#about {
+    color: #00b39b;
+}
+#departments {
+    color: #ababab;
+}
+.write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+#logo {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+}
+img {
+    vertical-align: middle;
+}
+#headertxt {
+    color: #00b39b;
+    font-size:3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+}
+.paragraph {
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    background-color: transparent;
+}
+.paragraph1 {
+    padding-right: 30px;
+}
+p {
+    margin: 0 0 10px;
+}
+div {
+    display: block;
+}
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75px auto 2.5px;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin-left: 740px;
+    margin-top: 60px;
+}
+.card1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+div {
+    display: block;
+}
+.cards img {
+    width: 25px;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.card1 #mtitle1, .card2 #mtitle2, .card3 #mtitle3 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3px 0;
+    font-family: Work Sans, Arial, sans-serif;
+}
+p {
+    margin: 0 0 10px;
+}
+div {
+    display: block;
+}
+.card1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.card2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+.main1 .main2 .main3{
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.card2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.card3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+div {
+    display: block;
+}
+.card3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+html {
+    display: block;
+    box-sizing: border-box;
+}
